@@ -9454,7 +9454,7 @@ fieldset:disabled .btn {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important
+    color: #7C877F !important
 }
 
 .text-secondary {
