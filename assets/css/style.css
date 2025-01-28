@@ -374,3 +374,63 @@ header {
 .menu-list {
     cursor: pointer;
 }
+
+/* work */
+.work {
+    padding: 100px 0;
+    background-color: #192324;
+}
+
+/* testimonial */
+.testimonial {
+    background-color: #f8f8f8;
+}
+.testimonial-img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 0.82;
+    object-fit: cover;
+}
+.testimonial-img img {
+    max-width: 100%;
+    height: 100%;
+}
+.our-testimonial-content {
+    padding: 80px 80px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .fs-20 {
+    font-size: 20px;
+  }
+
+ .slider-img img {
+    border-radius: 50%;
+ }
+
+ .slider-part {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eaf0ec;
+ }
+
+ .testi-star {
+    display: inline-block;
+    background: #7C877F;
+    padding: 0px 5px 3px 5px;
+    line-height: 1em;
+ }
+ .testi-star i {
+    font-size: 10px;
+    font-weight: 900;
+    color: white;
+ }
+ .testi-counter h2 {
+    font-size: 58px;
+    font-weight: 600;
+ }
