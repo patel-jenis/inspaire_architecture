@@ -38,13 +38,13 @@
 
                             <ul class="sub-menu position-absolute rounded-2 pt-2 pb-2 list-unstyled m-0">
                                 <li class="ps-4 pe-4 pt-3 pb-2">
-                                    <a href="">Home - Image</a>
+                                    <a href="javascript: vois(0);">Home - Image</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-3 pb-3">
-                                    <a href="">Home - Video</a>
+                                    <a href="javascript: vois(0);">Home - Video</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-3">
-                                    <a href="">Home - Slider</a>
+                                    <a href="javascript: vois(0);">Home - Slider</a>
                                 </li>
                             </ul>
                         </li>
@@ -67,22 +67,22 @@
 
                             <ul class="sub-menu position-absolute rounded-2 pt-2 pb-2 list-unstyled m-0">
                                 <li class="ps-4 pe-4 pt-3 pb-2">
-                                    <a href="">Service Details</a>
+                                    <a href="javascript: vois(0);">Service Details</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-2">
-                                    <a href="">Project Details</a>
+                                    <a href="javascript: vois(0);">Project Details</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-2">
-                                    <a href="">Blog Details</a>
+                                    <a href="javascript: vois(0);">Blog Details</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-2">
-                                    <a href="">Image Gallery</a>
+                                    <a href="javascript: vois(0);">Image Gallery</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-2">
-                                    <a href="">FAQs</a>
+                                    <a href="javascript: vois(0);">FAQs</a>
                                 </li>
                                 <li class="ps-4 pe-4 pt-2 pb-3">
-                                    <a href="">404</a>
+                                    <a href="javascript: vois(0);">404</a>
                                 </li>
                             </ul>
                         </li>
@@ -132,7 +132,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-us">
+    <section class="about-us" id="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -394,23 +394,51 @@
         <div class="container">
             <div class="row grid gy-4">
                 <div class="col-lg-6 col-12 all bedroom">
-                    <div class="item w-100">
-                        <img src="./assets/images/filter-1.jpeg" alt="Work 1">
+                    <div class="filter-hover">
+                        <div class="item">
+                            <img src="./assets/images/filter-1.jpeg" alt="Work 1">
+                            <div class="hover-btn"><img src="./assets/images/service-btn.svg" alt="btn"></div>
+                        </div>
+                        <div class="item-content position-absolute text-white text-capitalize">
+                            <p class="mb-2">residential spaces</p>
+                            <h5 class="fw-bold">urban retreat: modern design meets comfort</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 all interior kitchen">
-                    <div class="item">
-                        <img src="./assets/images/filter-2.jpeg" alt="Work 1">
+                    <div class="filter-hover">
+                        <div class="item">
+                            <img src="./assets/images/filter-2.jpeg" alt="Work 1">
+                            <div class="hover-btn"><img src="./assets/images/service-btn.svg" alt="btn"></div>
+                        </div>
+                        <div class="item-content position-absolute text-white text-capitalize">
+                            <p class="mb-2">luxury homes</p>
+                            <h5 class="fw-bold">luxurious loft: industrial chic for living</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 all furniture">
-                    <div class="item">
-                        <img src="./assets/images/filter-3.jpeg" alt="Work 1">
+                    <div class="filter-hover">
+                        <div class="item">
+                            <img src="./assets/images/filter-3.jpeg" alt="Work 1">
+                            <div class="hover-btn"><img src="./assets/images/service-btn.svg" alt="btn"></div>
+                        </div>
+                        <div class="item-content position-absolute text-white text-capitalize">
+                            <p class="mb-2">outdoor living spaces</p>
+                            <h5 class="fw-bold">coastal vibes: serenity by the sea</h5>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 all bedroom kitchen">
-                    <div class="item">
-                        <img src="./assets/images/filter-4.jpeg" alt="Work 1">
+                    <div class="filter-hover">
+                        <div class="item">
+                            <img src="./assets/images/filter-4.jpeg" alt="Work 1">
+                            <div class="hover-btn"><img src="./assets/images/service-btn.svg" alt="btn"></div>
+                        </div>
+                        <div class="item-content position-absolute text-white text-capitalize">
+                            <p class="mb-2">modern designs</p>
+                            <h5 class="fw-bold">minimalist haven: simple, clean, inviting spaces</h5>
+                        </div>
                     </div>
                 </div>
 
@@ -510,6 +538,182 @@
         </div>
     </section>
 
+    <!-- Blog -->
+    <section class="blog">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="me-lg-5">
+                        <div class="about-title mb-4">
+                            <p class="text-primary mb-3">latest news</p>
+                            <h2 class="fs-42">Your guide to
+                                <span class="text-primary">inspired interiors</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-120">
+                        <p>Your journey to inspired interiors begins here. Our blog offers a wealth of resources, including design tips, trend analyses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-item position-relative mt-5">
+                        <div class="blog-image white-hover position-relative">
+                            <img src="./assets/images/blog-1.jpeg" alt="img">
+                        </div>
+                        <div class="mt-4 blog-dsc">
+                            <h3 class="">How Does One Go About a Buying Furniture?</h3>
+                            <p>Read More
+                                <i class="ri-arrow-right-line"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-item position-relative mt-5">
+                        <div class="blog-image white-hover position-relative">
+                            <img src="./assets/images/blog-2.jpeg" alt="img">
+                        </div>
+                        <div class="mt-4 blog-dsc">
+                            <h3 class="">Innovative Décor Ideas Shaping Homes Today</h3>
+                            <p>Read More
+                                <i class="ri-arrow-right-line"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="blog-item position-relative mt-5">
+                        <div class="blog-image white-hover position-relative">
+                            <img src="./assets/images/blog-3.jpeg" alt="img">
+                        </div>
+                        <div class="mt-4 blog-dsc">
+                            <h3 class="">Design Industry Updates You Should Know About</h3>
+                            <p>Read More
+                                <i class="ri-arrow-right-line"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mt-5 text-center">
+                        <button class="get-btn text-bg-primary">
+                            See All Blogs
+                            <i class="ri-arrow-right-line ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-header d-md-flex d-block align-items-center justify-content-between">
+                        <div class="footer-logo">
+                            <img src="./assets/images/footer-logo.svg" alt="logo">
+                        </div>
+                        <div class="d-flex align-items-center gap-4 mt-md-0 mt-4">
+                            <h5 class="text-white m-0">Follow Our Socials</h5>
+                            <ul class="m-0 p-0 footer-links d-flex gap-3">
+                                <li><a href="javascript: void(0);"><i class="ri-facebook-fill"></i></a></li>
+                                <li><a href="javascript: void(0);"><i class="ri-instagram-fill"></i></a></li>
+                                <li><a href="javascript: void(0);"><i class="ri-twitter-fill"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-white footer-list">
+                        <h5 class="mb-3">Information</h5>
+                        <ul class="m-0 p-0 text-capitalize">
+                            <li class="mb-2">About our company</li>
+                            <li class="mb-2">view our service</li>
+                            <li class="mb-2">careers at company</li>
+                            <li class="mb-2">read our blog</li>
+                            <li class="mb-2">our latest projects</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-white footer-list mt-md-0 mt-3">
+                        <h5 class="mb-3">Portfolio</h5>
+                        <ul class="m-0 p-0 text-capitalize">
+                            <li class="mb-2">luxury home design</li>
+                            <li class="mb-2">residential interior design</li>
+                            <li class="mb-2">commercial space design</li>
+                            <li class="mb-2">residential interior design</li>
+                            <li class="mb-2">renovation and restoration design</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-white footer-list mt-lg-0 mt-3">
+                        <h5 class="mb-3">Contact Us</h5>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box"><i class="ri-phone-fill"></i></div>
+                            <div>
+                                <p class="m-0">+1 (213) 465 789</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box"><i class="ri-mail-fill"></i></div>
+                            <div>
+                                <p class="m-0">info@domain.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="icon-box"><i class="ri-map-pin-2-fill"></i></div>
+                            <div>
+                                <p class="m-0">Generała Jerzego</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="text-white footer-list mt-lg-0 mt-3">
+                        <h5 class="mb-3">Get The Latest Trending News</h5>
+                        <p class="mb-4">
+                            Your Dream Space Starts Here Get Exclusive Design Straight Your Inbox!
+                        </p>
+                        <form action="">
+                            <div class="w-100 d-flex">
+                                <input type="email" name="email" id="mail" placeholder="Enter your email" autocomplete="off">
+                                <button type="submit" class="input-btn">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center text-white">
+                            <p>Copyright © 2024 All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="pre-loader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div class="loading-icon">
+                <img src="./assets/images/loader.svg" alt="loader">
+            </div>
+        </div>
+    </div>
+
     <!-- Offcanvas Header -->
     <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample">
         <div class="offcanvas-body">
@@ -585,13 +789,13 @@
             $(".menu-list .menu-item").on("click", function () {
                 var filterValue = $(this).attr('data-filter');
                 $grid.isotope({ filter: filterValue });
+
+                $(".menu-item").removeClass("active")
+                $(this).toggleClass("active")
             })
-
-            // $(".menu-list .menu-item").on("click", function () {
-            //     $(".menu-item").removeClass("active")
-            //     $(this).toggleClass("active")
-            // })
-
+        })
+        $(window).on("load", function(){
+            $(".pre-loader").delay(1000).fadeOut()
         })
     </script>
 </body>
